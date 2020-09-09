@@ -17,7 +17,7 @@ class AnalogClock {
         */
        hour = ang / 30;
        degrees = ang - (hour * 30);
-       time = degrees * 2;
+       time = (degrees * 2) * 6;
        System.out.print(time);
  
  
