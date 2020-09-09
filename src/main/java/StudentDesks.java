@@ -21,7 +21,7 @@ class StudentDesks {
         if(stu % 2 == 0)
         {
          stu = stu / 2;
-        }else
+        }else if (stu % 2 != 0)
         {
          stu = stu + 1;
          stu = stu / 2;
